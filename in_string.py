@@ -2,11 +2,16 @@ def check_vowels():
     # Código a implementar utilizando input.
     print("ingrese un nombre:")
     txt=input()
-    print(f"contiene a:{'a'in txt.lower()}")
-    print(f"contiene e:{'e'in txt.lower()}")
-    print(f"contiene i:{'i'in txt.lower()}")
-    print(f"contiene o:{'o'in txt.lower()}")
-    print(f"contiene u:{'u'in txt.lower()}")
+    a="a"in txt.lower()
+    e="e"in txt.lower()
+    i="i"in txt.lower()
+    o="o"in txt.lower()
+    u="u"in txt.lower()
+    print(f"contiene a: {a}")
+    print(f"contiene e: {e}")
+    print(f"contiene i: {i}")
+    print(f"contiene o: {o}")
+    print(f"contiene u: {u}")
 
 
 
